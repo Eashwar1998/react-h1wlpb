@@ -1,6 +1,6 @@
 import { NAME_CHANGE } from '../actions/actionTypes';
 
-const usernameReducer = (state = 0, action) => {
+const usernameReducer = (state = '', action) => {
   switch (action.type) {
     case NAME_CHANGE: {
       console.log('incrementing the counter inside reducer');
