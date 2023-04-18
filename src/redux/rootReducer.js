@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 
-import { counterReducer, apiReducer, usernameReducer } from './reducers';
+import { counterReducer, apiReducer, nameChangeReducer } from './reducers';
 
 const rootReducer = combineReducers({
   counter: counterReducer,
-  username: usernameReducer,
+  username: nameChangeReducer,
   apidata: apiReducer,
 });
 
